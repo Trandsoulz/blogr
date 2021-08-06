@@ -1,0 +1,268 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Ubuntu;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+header {
+  height: 70vh;
+  background-color: hsl(13, 100%, 72%);
+  margin-top: 0;
+  background-image: url("./images/bg-pattern-intro.svg");
+  background-position: center;
+  color: white;
+  border-bottom-left-radius: 10rem;
+}
+
+.container {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.Blogr {
+  font-size: 50px;
+  padding-top: 1rem;
+  padding-left: 150px;
+  padding-right: 0px;
+  float: left;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  padding: 1rem;
+  color: white;
+}
+
+#moon {
+  padding-top: 30px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+  font-family: Ubuntu;
+}
+
+.grunt {
+  display: flex;
+  width: 50vw;
+  justify-content: space-around;
+}
+.grade {
+  padding-right: 40px;
+}
+
+.world {
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+  font-family: Overpass;
+}
+
+.pon {
+  border: 4px solid white;
+  border-radius: 4rem;
+  color: hsl(353, 100%, 62%);
+  background-color: white;
+  width: 100px;
+  height: 20px;
+}
+
+.pon-2 {
+  border: 4px solid white;
+  border-radius: 4rem;
+  color: hsl(353, 100%, 62%);
+  background-color: white;
+  margin: 1rem;
+}
+
+.pon-3 {
+  border: 1px solid white;
+  border-radius: 4rem;
+  color: white;
+  background-color: hsl(353, 100%, 62%);
+  margin: 1rem;
+  width: 100px;
+  height: 20px;
+}
+
+p {
+  padding: 1px;
+}
+
+#pon1 {
+  font-size: 3.3rem;
+  padding: 0px;
+  margin: 0px;
+}
+
+#pon2 {
+  font-family: Ubuntu;
+  font-size: 1.2rem;
+  padding: 10px;
+  font-weight: lighter;
+  margin-top: 5px;
+}
+
+/*1st section*/
+
+.flex-container {
+  justify-content: space-between;
+}
+
+.main {
+  height: 100vh;
+}
+
+h2 {
+  padding-top: 6rem;
+  text-align: center;
+  font-family: Overpass;
+  font-size: 2.5rem;
+  color: hsl(208, 49%, 24%);
+}
+
+h3 {
+  color: hsl(208, 49%, 24%);
+  font-size: 1.5rem;
+}
+
+#section1 {
+  overflow: hidden;
+}
+
+.top {
+  transform: translateX(30%);
+  font-size: 1.1rem;
+}
+
+.top p {
+  font-weight: lighter;
+  font-size: 1.1rem;
+  color: hsl(207, 13%, 34%);
+}
+
+.below {
+  width: 50%;
+}
+
+.below img {
+  width: 100%;
+  height: auto;
+  position: relative;
+  transform: translate(30%, -30%);
+  z-index: 10;
+}
+
+/*2nd section*/
+
+.sub {
+  height: 45vh;
+  background-color: hsl(237, 23%, 32%);
+  border-bottom-left-radius: 7rem;
+  border-top-right-radius: 7rem;
+  overflow: hiden;
+}
+
+.flex-container {
+  justify-content: space-between;
+}
+
+.maintain img {
+  transform: translate(0, -20%);
+  height: 60vh;
+  background: url("./images/bg-pattern-circles.sv") center;
+  padding-left: 6rem;
+  /*height: auto;
+	width: 70%;*/
+}
+
+#img {
+  z-index: -1;
+}
+
+#sub {
+  text-align: left;
+  color: white;
+  line-height: 2;
+}
+
+#sub h2 {
+  margin-top: 0;
+  margin-right: 5rem;
+  margin-bottom: 1rem;
+
+  padding-top: 0;
+  padding-right: 2rem;
+  text-align: left;
+  color: white;
+}
+
+#sub p {
+  font-size: 1.1rem;
+  font-weight: lighter;
+}
+
+article {
+  height: 120vh;
+}
+
+.flex-container: {
+  justify-content: space-between;
+}
+
+.yawn {
+  transform: translate(-40%, 03%);
+  height: 90%;
+  width: 210%;
+}
+
+.open {
+  margin-top: 10rem;
+  padding: 10rem;
+  font-size: 1.3rem;
+  font-weight: lighter;
+}
+
+.enter {
+  background-color: green;
+  text-align: left;
+}
+
+footer {
+  height: 45vh;
+  background-color: hsl(240, 10%, 16%);
+  border-top-right-radius: 6rem;
+  color: white;
+}
+
+.flex-container {
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.stres h3 {
+  color: white;
+}
+
+.stres a {
+  margin: 0;
+  padding: 0;
+}
+
+.stress {
+  margin: 0;
+  font-size: 3rem;
+}
