@@ -87,7 +87,7 @@ a {
   border: 1px solid white;
   border-radius: 4rem;
   color: white;
-  background-color: hsl(353, 100%, 62%);
+  /* background-color: hsl(353, 100%, 62%); */
   margin: 1rem;
   width: 100px;
   height: 20px;
